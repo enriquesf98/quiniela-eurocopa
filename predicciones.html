@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiniela Eurocopa 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="partidos.html">Partidos</a></li>
+                <li><a href="predicciones.html">Predicciones</a></li>
+                <li><a href="clasificacion.html">Clasificación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="predicciones">
+            <!-- Formulario de predicciones -->
+            <form id="prediccionesForm">
+                <label for="campeon">Campeón del torneo:</label>
+                <select id="campeon" name="campeon">
+                    <option value="">Selecciona un equipo</option>
+                    <option value="Alemania">Alemania</option>
+                    <option value="España">España</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Inglaterra">Inglaterra</option>
+                    <option value="Países Bajos">Países Bajos</option>
+                    <option value="Bélgica">Bélgica</option>
+                    <option value="Croacia">Croacia</option>
+                    <option value="Suiza">Suiza</option>
+                    <!-- Agrega más opciones según las selecciones participantes -->
+                </select><br>
+                
+                <label for="maxGoleador">Máximo goleador del torneo:</label>
+                <div id="maxGoleadorContainer">
+                    <select id="seleccionJugador" name="seleccionJugador">
+                        <option value="">Selecciona una selección</option>
+                        <!-- Opciones de selecciones se añadirán dinámicamente desde JavaScript -->
+                    </select>
+                    <select id="jugador" name="jugador">
+                        <option value="">Selecciona un jugador</option>
+                        <!-- Opciones de jugadores se añadirán dinámicamente desde JavaScript -->
+                    </select>
+                </div><br>
+                
+                <label for="maxGoleadorEsp">Máximo goleador de España:</label>
+                    <select id="maxGoleadorEsp" name="maxGoleadorEsp">
+    <option value="">Selecciona un jugador</option>
+    <!-- Opciones de jugadores de España se añadirán dinámicamente con JavaScript -->
+                    </select><br>
+
+                <label>Selecciones que pasan de fase de grupos:</label><br>
+                <!-- Lista de selecciones organizadas en columnas -->
+                    <ul class="selection-columns" id="equiposGrupo">
+                    <li><input type="checkbox" id="seleccion1" name="selecciones" value="Alemania"> <label for="seleccion1">Alemania</label></li>
+                    <li><input type="checkbox" id="seleccion2" name="selecciones" value="Escocia"> <label for="seleccion2">Escocia</label></li>
+                    <li><input type="checkbox" id="seleccion3" name="selecciones" value="Suiza"> <label for="seleccion3">Suiza</label></li>
+                    <li><input type="checkbox" id="seleccion4" name="selecciones" value="Hungría"> <label for="seleccion4">Hungría</label></li>
+                    <li><input type="checkbox" id="seleccion5" name="selecciones" value="España"> <label for="seleccion5">España</label></li>
+                    <li><input type="checkbox" id="seleccion6" name="selecciones" value="Italia"> <label for="seleccion6">Italia</label></li>
+                    <li><input type="checkbox" id="seleccion7" name="selecciones" value="Albania"> <label for="seleccion7">Albania</label></li>
+                    <li><input type="checkbox" id="seleccion8" name="selecciones" value="Croacia"> <label for="seleccion8">Croacia</label></li>
+                    <li><input type="checkbox" id="seleccion9" name="selecciones" value="Inglaterra"> <label for="seleccion9">Inglaterra</label></li>
+                    <li><input type="checkbox" id="seleccion10" name="selecciones" value="Dinamarca"> <label for="seleccion10">Dinamarca</label></li>
+                    <li><input type="checkbox" id="seleccion11" name="selecciones" value="Eslovenia"> <label for="seleccion11">Eslovenia</label></li>
+                    <li><input type="checkbox" id="seleccion12" name="selecciones" value="Serbia"> <label for="seleccion12">Serbia</label></li>
+                    <li><input type="checkbox" id="seleccion13" name="selecciones" value="Países Bajos"> <label for="seleccion13">Países Bajos</label></li>
+                    <li><input type="checkbox" id="seleccion14" name="selecciones" value="Francia"> <label for="seleccion14">Francia</label></li>
+                    <li><input type="checkbox" id="seleccion15" name="selecciones" value="Polonia"> <label for="seleccion15">Polonia</label></li>
+                    <li><input type="checkbox" id="seleccion16" name="selecciones" value="Austria"> <label for="seleccion16">Austria</label></li>
+                    <li><input type="checkbox" id="seleccion17" name="selecciones" value="Rumanía"> <label for="seleccion17">Rumanía</label></li>
+                    <li><input type="checkbox" id="seleccion18" name="selecciones" value="Eslovaquia"> <label for="seleccion18">Eslovaquia</label></li>
+                    <li><input type="checkbox" id="seleccion19" name="selecciones" value="Bélgica"> <label for="seleccion19">Bélgica</label></li>
+                    <li><input type="checkbox" id="seleccion20" name="selecciones" value="Ucrania"> <label for="seleccion20">Ucrania</label></li>
+                    <li><input type="checkbox" id="seleccion21" name="selecciones" value="Turquía"> <label for="seleccion21">Turquía</label></li>
+                    <li><input type="checkbox" id="seleccion22" name="selecciones" value="Portugal"> <label for="seleccion22">Portugal</label></li>
+                    <li><input type="checkbox" id="seleccion23" name="selecciones" value="Chequia"> <label for="seleccion23">Chequia</label></li>
+                    <li><input type="checkbox" id="seleccion24" name="selecciones" value="Georgia"> <label for="seleccion24">Georgia</label></li>
+                </ul><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quiniela Eurocopa</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

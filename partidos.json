@@ -1,0 +1,74 @@
+{
+    "matches": [
+        {
+            "homeTeam": "Croacia",
+            "awayTeam": "Albania",
+            "date": "2024-06-14T14:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/hr.png",
+            "awayFlag": "https://flagcdn.com/w320/al.png"
+        },
+        {
+            "homeTeam": "Alemania",
+            "awayTeam": "Hungría",
+            "date": "2024-06-14T17:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/de.png",
+            "awayFlag": "https://flagcdn.com/w320/hu.png"
+        },
+        {
+            "homeTeam": "Escocia",
+            "awayTeam": "Suiza",
+            "date": "2024-06-14T20:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/gb-sct.png",
+            "awayFlag": "https://flagcdn.com/w320/ch.png"
+        },
+        {
+            "homeTeam": "Eslovenia",
+            "awayTeam": "Serbia",
+            "date": "2024-06-15T14:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/si.png",
+            "awayFlag": "https://flagcdn.com/w320/rs.png"
+        },
+        {
+            "homeTeam": "Dinamarca",
+            "awayTeam": "Inglaterra",
+            "date": "2024-06-15T17:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/dk.png",
+            "awayFlag": "https://flagcdn.com/w320/gb.png"
+        },
+        {
+            "homeTeam": "España",
+            "awayTeam": "Italia",
+            "date": "2024-06-15T20:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/es.png",
+            "awayFlag": "https://flagcdn.com/w320/it.png"
+        },
+        {
+            "homeTeam": "Eslovaquia",
+            "awayTeam": "Ucrania",
+            "date": "2024-06-21T14:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/sk.png",
+            "awayFlag": "https://flagcdn.com/w320/ua.png"
+        },
+        {
+            "homeTeam": "Polonia",
+            "awayTeam": "Austria",
+            "date": "2024-06-21T17:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/pl.png",
+            "awayFlag": "https://flagcdn.com/w320/at.png"
+        },
+        {
+            "homeTeam": "Países Bajos",
+            "awayTeam": "Francia",
+            "date": "2024-06-21T20:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/nl.png",
+            "awayFlag": "https://flagcdn.com/w320/fr.png"
+        },
+        {
+            "homeTeam": "Georgia",
+            "awayTeam": "Chequia",
+            "date": "2024-06-22T14:00:00Z",
+            "homeFlag": "https://flagcdn.com/w320/ge.png",
+            "awayFlag": "https://flagcdn.com/w320/cz.png"
+        }
+    ]
+}
